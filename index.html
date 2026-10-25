@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Queue for Apple TV</title>
+<meta name="description" content="Queue is a personal Apple TV app for managing your own YouTube playlists.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<h1>Queue for Apple TV</h1>
+<p class="sub">A personal Apple TV app for managing your own YouTube playlists.</p>
+
+<p>Queue is a small tvOS app built by one person for their own Apple TV. It is not sold or listed on the App Store; it is installed directly from Xcode.</p>
+
+<h2>What it does</h2>
+<ul>
+<li>Keeps a <strong>Queue</strong> (videos to watch soon) and <strong>Saved</strong> (videos to watch eventually) as ordinary private playlists in your YouTube account, plus any other playlists you have.</li>
+<li>Lets you move, reorder, remove and mark videos watched, one at a time or several at once.</li>
+<li>Searches YouTube and builds "topic" rows from channels or searches you choose.</li>
+<li>Hands playback to the official YouTube app. Queue never plays video itself.</li>
+</ul>
+
+<h2>Why it asks for access to your YouTube account</h2>
+<p>You sign in with Google on your phone using a code shown on the TV. Queue asks for the YouTube permission (<code>https://www.googleapis.com/auth/youtube</code>) because it needs to read your playlists and change them: add videos, remove them, reorder them and create playlists. It uses that access only to do what you ask in the app.</p>
+<p>Queue uses <a href="https://developers.google.com/youtube/terms/api-services-terms-of-service">YouTube API Services</a>. Your sign-in stays on your Apple TV, and nothing is sent to any server run by the developer. The <a href="privacy.html">privacy policy</a> has the details.</p>
+
+<nav>
+<a href="privacy.html">Privacy policy</a>
+<a href="terms.html">Terms of service</a>
+</nav>
+</main>
+</body>
+</html>
